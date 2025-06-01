@@ -18,44 +18,6 @@ const Hero = () => {
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
-  //   'HackerRoom', {
-  //     positionX: {
-  //       value: 2.5,
-  //       min: -10,
-  //       max: 10,
-  //     },
-  //     positionY: {
-  //       value: 2.5,
-  //       min: -10,
-  //       max: 10,
-  //     },
-  //     positionZ: {
-  //       value: 2.5,
-  //       min: -10,
-  //       max: 10,
-  //     },
-  //     rotationX: {
-  //       value: 0,
-  //       min: -10,
-  //       max: 10,
-  //     },
-  //     rotationY: {
-  //       value: 0,
-  //       min: -10,
-  //       max: 10,
-  //     },
-  //     rotationZ: {
-  //       value: 0,
-  //       min: -10,
-  //       max: 10,
-  //     },
-  //     scale: {
-  //       value: 1,
-  //       min: 0.1,
-  //       max: 10,
-  //     },
-  //   }
-  // ) // use to position the element
 
   return (
     <section className="min-h-screen w-full flex flex-col relative">
@@ -91,7 +53,7 @@ const Hero = () => {
         </div>
 
         <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-          <a href="#contact" className="w-fit">
+          <a href="#about" className="w-fit">
             <Button name="Let's work together" isBeam containerClass="w-full sm:w-fit sm:min-w-96" />
           </a>
         </div>
@@ -99,4 +61,5 @@ const Hero = () => {
     </section>
   );
 };
+
 export default Hero;

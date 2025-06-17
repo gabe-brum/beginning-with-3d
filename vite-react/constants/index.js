@@ -254,7 +254,7 @@ export const workExperiences = [
     duration: "12/2022 - Present",
     title:
       "Development of landing pages and other static pages. Support and development of components, pages and layouts following the Headless architecture with React.Js and Typescript, under the Next.js framework. State control with React Context / Redux. Development of unit tests using Vitest. Management and creation of scripts via Google Tag Manager. Management and creation of AB tests via Firebase (remote configuration).",
-    icon: "/assets/framer.svg",
+    icon: "/assets/next.png",
     animation: "victory",
   },
   {
@@ -264,7 +264,7 @@ export const workExperiences = [
     duration: "02/2022 - 12/2022",
     title:
       "Development of landing pages and other static pages; corrections, improvements and addition of functionalities in the company's e-commerces under a monolithic structure in .JSP files, with styling in SASS. Management and creation of scripts via Google Tag Manager.",
-    icon: "/assets/figma.svg",
+    icon: "/assets/intern.png",
     animation: "clapping",
   },
 ];
